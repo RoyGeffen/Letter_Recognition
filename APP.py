@@ -11,9 +11,10 @@ import numpy as np
 from numpy import asarray
 import matplotlib.pyplot as plt
 
+#DOWNLOAD GS FROM https://ghostscript.com/releases/gsdnld.html
+#INSERT GS PATH IN THE FOLLOWING LINE
+EpsImagePlugin.gs_windows_binary = r'E:\Program Files\gs\gs10.01.1\bin\gswin64c'
 
-#EpsImagePlugin.gs_windows_binary = r'E:\Program Files\gs\gs10.01.1\bin\gswin64c'
-EpsImagePlugin.gs_windows_binary = r'gs10.01.1\bin\gswin64c'
 class num:
     i = 0
 class string:
